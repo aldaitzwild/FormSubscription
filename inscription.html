@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulaire d'inscription</h1>
+    </header>
+
+    <main>
+        <form action="inscription.php" method="POST">
+            <p>
+                <label for="firstname">Prénom : </label>
+                <input type="text" id="firstname" name="firstname" required/>
+            </p>
+
+            <p>
+                <label for="lastname">Nom : </label>
+                <input type="text" id="lastname" name="lastname" required/>
+            </p>
+
+            <p>
+                <label for="birthdate">Date de naissance : </label>
+                <input type="date" id="birthdate" name="birthdate"/>
+            </p>
+
+            <hr>
+
+            <p>
+                <label for="login">Login : </label>
+                <input type="text" id="login" name="login"/>
+            </p>
+
+            <p>
+                <label for="pwd">Mot de passe : </label>
+                <input type="password" id="pwd" name="pwd"/>
+            </p>
+
+            <p>
+                <label for="cpwd">Confirmation Mot de passe : </label>
+                <input type="password" id="cpwd" name="cpwd"/>
+            </p>
+
+            <p>
+                <input type="submit" value="Envoyer"/>
+            </p>
+        </form>
+    </main>
+
+
+    
+</body>
+</html>

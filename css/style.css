@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+    font-size: 38pt;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid black;
+    padding: 80px;
+}
+
+label {
+    display: inline-block;
+    min-width: 200px;
+}
+
+#errors {
+    background-color: lightcoral;
+    border: 5px red solid;
+    border-radius: 25px;
+    margin: 80px;
+    padding: 100px;
+    font-size: larger;
+}
+
+#errors h2 {
+    color: darkred;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#success {
+    background-color: palegreen;
+    border: 5px green solid;
+    border-radius: 25px;
+    margin: 80px;
+    padding: 100px;
+    font-size: larger;
+}
